@@ -6,6 +6,24 @@
     <title>2x2 Grid Layout</title>
     <link rel="stylesheet" href="1.assigment.css">
 </head>
+<style>
+    .holder {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 200px;
+    height: 200px;
+    gap: 10px;
+}
+
+.item {
+    background-color: #4CAF50;
+    text-align: center;
+    line-height: 80px;
+    font-size: 20px;
+    color: white;
+}
+</style>
 <body>
 
     <div class="holder">
